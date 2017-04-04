@@ -1,0 +1,35 @@
+{
+  "name": "marugram-db",
+  "version": "1.0.0",
+  "description": "Marugram Database Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && ava",
+    "lint": "standard"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yelloalejo/node.git"
+  },
+  "author": "Diego Marulanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yelloalejo/node/issues"
+  },
+  "homepage": "https://github.com/yelloalejo/node#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-eslint": "^7.2.1",
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "co": "^4.6.0",
+    "matcher": "^0.1.2",
+    "rethinkdb": "^2.3.3",
+    "uuid-base62": "^0.1.0"
+  }
+}

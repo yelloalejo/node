@@ -1,0 +1,37 @@
+2017-03-31T11:07:55.521464000 40.052393s notice: Recursively removing directory /Users/diegom/Desktop/platzigram-master/rethinkdb_data/tmp
+2017-03-31T11:07:55.526491000 40.057431s notice: Initializing directory /Users/diegom/Desktop/platzigram-master/rethinkdb_data
+2017-03-31T11:07:55.526783000 40.057710s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/diegom/Desktop/platzigram-master/rethinkdb_data' did not already exist or is empty.)
+2017-03-31T11:07:55.527009000 40.057937s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-03-31T11:07:55.542839000 40.073768s notice: Running on Darwin 16.4.0 x86_64
+2017-03-31T11:07:55.543006000 40.073933s notice: Loading data from directory /Users/diegom/Desktop/platzigram-master/rethinkdb_data
+2017-03-31T11:07:56.869531000 41.400490s info: Automatically using cache size of 6502 MB
+2017-03-31T11:07:56.871598000 41.402556s notice: Listening for intracluster connections on port 29015
+2017-03-31T11:07:56.876795000 41.407754s notice: Listening for client driver connections on port 28015
+2017-03-31T11:07:56.877468000 41.408426s notice: Listening for administrative HTTP connections on port 8080
+2017-03-31T11:07:56.877487000 41.408444s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-03-31T11:07:56.877512000 41.408469s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-03-31T11:07:56.877521000 41.408479s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-03-31T11:07:56.877545000 41.408502s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-31T11:07:56.877561000 41.408518s notice: Server ready, "Diegos_MacBook_Pro_local_9q9" 60bed85a-6a81-4a82-80de-a8028f8dbd94
+2017-03-31T11:10:11.255901000 175.789158s notice: Server got SIGINT from pid 285, uid 501; shutting down...
+2017-03-31T11:10:11.256288000 175.789545s notice: Shutting down client connections...
+2017-03-31T11:10:11.256736000 175.789992s notice: All client connections closed.
+2017-03-31T11:10:11.256767000 175.790023s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-03-31T11:10:11.257893000 175.791149s notice: Storage engine shut down.
+2017-03-31T11:15:09.783382000 40.054974s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-03-31T11:15:09.798051000 40.069633s notice: Running on Darwin 16.4.0 x86_64
+2017-03-31T11:15:09.798201000 40.069779s notice: Loading data from directory /Users/diegom/Desktop/platzigram-master/rethinkdb_data
+2017-03-31T11:15:10.107402000 40.379012s info: Automatically using cache size of 6418 MB
+2017-03-31T11:15:10.109274000 40.380883s notice: Listening for intracluster connections on port 29015
+2017-03-31T11:15:10.113881000 40.385491s notice: Listening for client driver connections on port 28015
+2017-03-31T11:15:10.114308000 40.385917s notice: Listening for administrative HTTP connections on port 8080
+2017-03-31T11:15:10.114319000 40.385928s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-03-31T11:15:10.114337000 40.385945s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-03-31T11:15:10.114344000 40.385952s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-03-31T11:15:10.114359000 40.385968s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-31T11:15:10.114374000 40.385983s notice: Server ready, "Diegos_MacBook_Pro_local_9q9" 60bed85a-6a81-4a82-80de-a8028f8dbd94
+2017-03-31T11:15:42.802207000 73.074377s notice: Server got SIGINT from pid 285, uid 501; shutting down...
+2017-03-31T11:15:42.802565000 73.074734s notice: Shutting down client connections...
+2017-03-31T11:15:42.803256000 73.075425s notice: All client connections closed.
+2017-03-31T11:15:42.803301000 73.075469s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-03-31T11:15:42.804161000 73.076331s notice: Storage engine shut down.
