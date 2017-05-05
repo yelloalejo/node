@@ -39,7 +39,7 @@ body {
 
 .loader-container {
   min-height: 80vh;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
 }
@@ -48,8 +48,8 @@ body {
 .signup-box {
   background-color: white;
   border: 1px solid #edeeee;
-  border-radius: 3px;
-  padding: 10px 0;
+  border-radius: 2px;
+  padding: 0 5px;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .signup-form {
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 

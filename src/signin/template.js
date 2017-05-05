@@ -5,7 +5,7 @@ var translate = require('../translate');
 var signinForm = yo`<div class="col s12 m7">
   <div class="row">
     <div class="signup-box">
-      <h1 class="platzigram">Platzigram</h1>
+      <h1 class="platzigram">Marugram</h1>
       <form class="signup-form">
         <div class="section">
           <a class="btn btn-fb hide-on-small-only">${translate.message('signup.facebook')}</a>
