@@ -48,7 +48,7 @@ app.get('/api/pictures', function(req, res, next) {
   var pictures = [{
     user: {
       username: 'alejandro',
-      avatar: 'http://icdn.pro/images/es/k/t/ktuberling-icono-4744-64.png',
+      avatar: 'http://icdn.pro/images/fr/v/e/vert-shyguy-icone-4191-128.png',
     },
       url: 'Penguin.jpg',
       likes: 0,
