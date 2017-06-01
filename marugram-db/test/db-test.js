@@ -51,3 +51,13 @@ test.after.always('cleanup database', async t => {
   let conn = await r.connect({})
   await r.dbDrop(dbName).run(conn)
 })
+
+test('get image', async t => {
+  t.is(typeof db.getImage, 'function', get image is a function)
+
+  let image = fixtures.getImage()
+  let created = await db.saveImage(image)
+  let result = await db.getImage(created.public_id)
+
+  t.deepEqual(created, result)
+})
