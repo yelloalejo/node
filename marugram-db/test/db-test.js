@@ -27,6 +27,16 @@ test('save image', async t => {
   t.truthy(created.createAt)
 })
 
+test('like image', async t => {
+  t.is(typeof db.likeImage, 'function', 'like image is a function')
+
+  let image = fixtures.likeImage()
+  let created = await db.saveImage(image)
+  let result = await db.likeImage(created.public_id)
+
+  t.true(result.like, image.likes + 1)
+})
+
 test.before('setup database', async t => {
   await db.connect()
   t.true(db.connected, 'should be connect')
