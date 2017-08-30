@@ -95,6 +95,17 @@ test('save user', async t => {
 
 test('get user', async t => {
   let db = t.context.db
+  t.is(typeof db.getUser, 'function', 'return an user')
+
+  let user = fixtures.getUser()
+  let created = await db.saveUser(user)
+  let getUser = await db.getUser(created.username)
+
+  t.deepEqual(created.username, getUser.username)
+})
+
+test('get user', async t => {
+  let db = t.context.db
 
   t.is(typeof db.getUser, 'function', 'getUser is a function')
   let user = fixtures.getUser()
